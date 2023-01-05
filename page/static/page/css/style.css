@@ -1,0 +1,103 @@
+body{
+    margin:0px;
+    background-color: #f4eae9;
+}
+
+.header{
+    background-color: #fed1e4
+}
+.header-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-list{
+    list-style-type: none;
+    display: flex;
+}
+.nav-item{
+    color: #49292f;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+
+    margin-right: 30px;
+}
+.header-logo img{
+    width: 200px;
+}
+
+
+.phone-image img{
+    width:30px;
+}
+
+
+.icons img{
+    float: right;
+    width:30px;
+    align-items: center;
+    padding-left: 15px;
+}
+
+
+.cart{
+    float: left;
+}
+.cart a img{
+    width: 50px;
+    padding-right: 10px;
+    border-right:2px solid black;
+    height: 50px;
+}
+
+.num{
+    color: #49292f;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.phone-text{
+
+    font-size: 14px;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding-left: 70px;
+}
+.phone-holder{
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+}
+
+.menu{
+    display:inline-block;
+    background-color: #49292f;
+    width: 15vw;
+    height: 100vh;
+    text-align:center;
+
+}
+
+.title-menu p{
+    color: #897577;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.menu-list{
+    list-style-type: none;
+    width:100%;
+}
+
+.menu-list li a{
+    display:block;
+    text-decoration: none;
+    color: #fff;
+}
+.img-test{
+    float: left;
+}

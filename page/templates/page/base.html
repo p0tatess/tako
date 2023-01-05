@@ -1,0 +1,88 @@
+{% load static %}
+
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="p0tatess">
+    <meta name="keywords" content="HTML,Django,Python,poe" >
+    <meta name="description" content="Смогу ли я написать этот сайт наконец-то?????">
+    <link type="text/css" href="{% static 'page/css/style.css' %}" rel="stylesheet"/>
+    <title>Html ebka</title>
+  </head>
+
+  <body>
+        <div class="header">
+            <div class="container">
+                <div class="header-line">
+                    <div class="header-logo">
+                        <img src="{% static 'page/images/logo.png' %}" alt="Логотип">
+                    </div>
+                    <div class="nav">
+                        <ul class="header-list">
+                            <li><a class="nav-item"  href="#">Акции</a></li>
+                            <li><a class="nav-item"  href="#">О доставке</a></li>
+<!--                            <li><a class="nav-item"  href="#">О нас</a></li>-->
+                        </ul>
+                    </div>
+                         <div class="slitno">
+                            <div class="cart">
+                                <a href="#">
+                                    <img src="{% static 'page/images/korzina.png' %}" alt="Корзина">
+                                </a>
+                            </div>
+
+                            <div class="phone">
+                                <div class="phone-holder">
+                                    <div class="phone-image">
+                                        <img src="{% static 'page/images/phone.png' %}" alt="Телефон">
+                                    </div>
+
+                                    <div class="number">
+                                        <a class="num" href="#">8-908-956-7648</a>
+                                    </div>
+                                </div>
+                                <div class="phone-text">
+                                    Наш телефон для связи
+                                </div>
+                         </div>
+                         </div>
+                        <div class="icons">
+                            <img src="{% static 'page/images/vk.png' %}" alt="Vk">
+                            <img src="{% static 'page/images/instagram.png' %}" alt="Instagram">
+                            <img src="{% static 'page/images/telegram.png' %}" alt="Telegram">
+                        </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="menu">
+
+           <div class="title-menu">
+               <p>Меню доставки</p>
+           </div>
+            <div class="category">
+                <ul class="menu-list">
+                    <li><a href="#">
+                         <span class="img-test">
+                             <img src="{% static 'page/images/image1.png' %}" alt="">
+                        </span>
+                        Роллы
+                        </a>
+                    </li>
+                    <li><a href="#">Сеты</a></li>
+                    <li><a href="#">Пицца</a></li>
+                    <li><a href="#">Закуски</a></li>
+                    <li><a href="#">Гунканы</a></li>
+                    <li><a href="#">Супы</a></li>
+                    <li><a href="#">Разное</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+  </body>
+</html>
