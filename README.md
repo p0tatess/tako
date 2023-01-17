@@ -1,2 +1,2 @@
 # tako
-HTML ,CSS, JavaScript, Django
+HTML ,CSS, Django
